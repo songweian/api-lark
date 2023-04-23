@@ -14,7 +14,7 @@ An out-of-box UI solution for enterprise applications as a React boilerplate.
 
 </div>
 
-- Preview: http://preview.pro.ant.design
+- Preview: http://api-lark.vercel.app
 - Home Page: http://pro.ant.design
 - Documentation: http://pro.ant.design/docs/getting-started
 - ChangeLog: http://pro.ant.design/docs/changelog
