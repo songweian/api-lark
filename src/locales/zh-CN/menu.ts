@@ -49,4 +49,9 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+  'menu.cluster': '集群管理',
+  'menu.cluster.create': '创建集群',
+  'menu.cluster.update': '更新集群',
+  'menu.cluster.list': '集群列表',
+  'menu.cluster.detail': '集群详情',
 };

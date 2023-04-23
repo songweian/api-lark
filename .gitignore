@@ -38,4 +38,7 @@ screenshot
 .firebase
 .eslintcache
 
+# pnpm
+.next
+
 build

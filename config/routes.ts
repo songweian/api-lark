@@ -23,25 +23,40 @@ export default [
     ],
   },
   {
-    path: '/welcome',
-    name: 'welcome',
+    path: '/dashboard',
+    name: 'dashboard',
     icon: 'smile',
-    component: './Welcome',
+    component: './Dashboard',
   },
   {
-    path: '/admin',
-    name: 'admin',
+    path: '/cluster',
+    name: 'cluster',
     icon: 'crown',
     access: 'canAdmin',
     routes: [
       {
-        path: '/admin',
-        redirect: '/admin/sub-page',
+        path: '/cluster',
+        redirect: '/cluster/list',
       },
       {
-        path: '/admin/sub-page',
-        name: 'sub-page',
-        component: './Admin',
+        path: '/cluster/create',
+        name: 'create',
+        component: './Cluster/CreateCluster',
+      },
+      {
+        path: '/cluster/detail/:id',
+        name: 'detail',
+        component: './Cluster/ClusterDetail',
+      },
+      {
+        path: '/cluster/update/:id',
+        name: 'update',
+        component: './Cluster/UpdateCluster',
+      },
+      {
+        path: '/cluster/list',
+        name: 'list',
+        component: './Cluster/ListCluster',
       },
     ],
   },
@@ -53,7 +68,7 @@ export default [
   },
   {
     path: '/',
-    redirect: '/welcome',
+    redirect: '/dashboard',
   },
   {
     path: '*',
